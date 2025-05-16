@@ -18,7 +18,8 @@ This project uses the [diamonds dataset](https://www.kaggle.com/datasets/shivam2
 - Polynomial feature expansion up to degree 2 for capturing non-linear relationships.
 - Implemented Linear Regression training from scratch using:
   - Gradient Descent
-  - Adam Optimizer (default and recommended)
+  - Adam Optimizer
+  - L2 Regularisation (for punishing large weights and encourage smaller weights)
 - Comparison with sklearn’s Polynomial Regression model.
 
 ---
